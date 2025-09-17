@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @MwangiKazoora13
-- 👀 I’m interested in Development
-- 💯 I’m currently doing web based projects
+- 👀 I’m interested in Software Development
+- 💯 I’m currently doing web-software based projects
 - 📫 How to reach me https://www.linkedin.com/in/mwangi-kazoora
