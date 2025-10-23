@@ -1,4 +1,3 @@
 - 👋 Hi, I’m Mwangi Kazoora
 - 👀 I’m interested in Software Development
-- 💯 I’m currently doing web-software based projects
 - 📫 How to reach me https://www.linkedin.com/in/mwangi-kazoora
