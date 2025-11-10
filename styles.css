@@ -95,7 +95,7 @@ nav h4{
 #intro img{
     width: 30%;
     height: 30%;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 @media(max-width:800px){
     #intro{
