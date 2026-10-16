@@ -1,93 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mwangi Kazoora</title>
-    <link rel="icon" type="image/jpg" href="portfolio_images/dp.png"> 
-    <link rel="stylesheet" href="styles.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mwangi Kazoora | Software Developer</title>
+  <link rel="icon" type="image/png" href="portfolio_images/dp.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!--NAVIGATION SECTION-->
-  <nav id="navbar">
-    <h2><a href="index.html">Software Developer</a></h2>
-    <ul>
-      <li><a href="#intro">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contacts</a></li>
-    </ul>
-  </nav>
-  <main class="main">
-    <!--INTRO SECTION-->
-    <section id="intro">
-      <div class="intro-content">
-        <div class="intro-item">
-          <h1>Mwangi Kazoora</h1>
-          <h3>
-            Hello, a software developer passionate about building practical and efficient digital solutions. I enjoy turning ideas into real applications and continuously improving my skills through hands-on projects. This portfolio showcases some of the work I’ve built using modern web technologies.
-          </h3>
-        </div>
+  <header class="nav">
+    <a class="nav-brand" href="index.html">Mwangi Kazoora</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro" class="intro">
+      <p class="intro-role">Software developer</p>
+      <h1>Mwangi Kazoora</h1>
+      <p class="intro-text">
+        I build practical, efficient digital solutions. I enjoy turning ideas into real applications and keep improving through hands-on projects. This portfolio shows some of the work I've built.
+      </p>
+      <div class="intro-actions">
+        <a class="btn btn-primary" href="#projects">See my projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
       </div>
     </section>
-    <!--PROJECT SECTION-->
-    <section id="projects">
-      <!-- <h1 class="project-header">My Projects</h1> -->
-      <div class="project-gallery">
-        <div class="item">
-          <!-- <a href="https://mwangikazoora13.github.io/Terrazy/" target="_blank"> -->
-            <img src="./portfolio_images/merika.png" alt="Terrazy">
-            <p>Merika Hotel</p>
-          </a>
-        </div>
-        <div class="item">
-          <!-- <a href="https://mwangikazoora13.github.io/Terrazy/" target="_blank"> -->
-            <img src="./portfolio_images/tourist.png" alt="Terrazy">
-            <p>AIP Advocates</p>
-          </a>
-        </div>
-        <div class="item">
-          <!-- <a href="https://mwangikazoora13.github.io/Terrazy/" target="_blank"> -->
-            <img src="./portfolio_images/env.png" alt="Terrazy">
-            <p>M.B.T</p>
-          </a>
-        </div>
-        <div class="item">
-          <!-- <a href="https://mwangikazoora13.github.io/Terrazy/" target="_blank"> -->
-            <img src="./portfolio_images/coseke.png" alt="Terrazy">
-            <p>Coseke Survey</p>
-          </a>
-        </div>
+
+    <section id="projects" class="projects">
+      <div class="section-head">
+        <h2>Selected projects</h2>
+        <a class="link-all" href="https://github.com/MwangiKazoora13">Show all <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
       </div>
-    
-      <a rel="noopener" href="Projects.html">
-        <button type="submit">
-          <div class="button-bottom">
-            <p>Show All</p>
-            <i class="fas fa-chevron-right chevron"></i>
-          </div>
-        </button>
-      </a>
-    </section>
-    <!--CONTACT SECTION-->
-    <section id="contact">
-      <h1>How to reach me...</h1>
-      <div class="social-icons">
-        <a href="mailto:mkazoora13@gmail.com" target="_blank">
-          <i class="fab fa-google google icon"></i>
+      <div class="project-grid">
+        <!-- Replace each href="#" with the live project link -->
+        <a class="card" href="https://github.com/MwangiKazoora13/Terrazy" target="_blank" rel="noopener">
+          <img src="./portfolio_images/terrazy.png" alt="Terrazy" loading="lazy">
+          <span class="card-title">Terrazy</span>
         </a>
-        <a href="https://www.linkedin.com/in/mwangi-kazoora" target="_blank">
-          <i class="fab fa-linkedin-in linkedin icon"></i>
+        <a class="card" href="https://github.com/MwangiKazoora13/dc-cakes" target="_blank" rel="noopener">
+          <img src="./portfolio_images/dc cakes.png" alt="DC Cakes" loading="lazy">
+          <span class="card-title">DC Cakes</span>
+        </a>
+        <a class="card" href="https://github.com/MwangiKazoora13/Airline-DB-Project" target="_blank" rel="noopener">
+          <img src="./portfolio_images/ER Airine DB.png" alt="Airline DB Project" loading="lazy">
+          <span class="card-title">Airline DB Project</span>
+        </a>
+        <a class="card" href='https://github.com/MwangiKazoora13/Survey-System' target="_blank" rel="noopener">
+          <img src="./portfolio_images/coseke.png" alt="Coseke Survey" loading="lazy">
+          <span class="card-title">Coseke Survey</span>
         </a>
       </div>
     </section>
-    <!--FOOTER SECTION-->
-    <footer>
-      <p>Mwangi Kazoora.</p>
-    </footer>
+
+    <section id="contact" class="contact">
+      <h2>Have a project in mind?</h2>
+      <p>Send me an email or find me on LinkedIn.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:mkazoora13@gmail.com">
+          <i class="fas fa-envelope" aria-hidden="true"></i> mkazoora13@gmail.com
+        </a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/mwangi-kazoora" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2025</span> Mwangi Kazoora</p>
+  </footer>
   </main>
 </body>
 </html>
